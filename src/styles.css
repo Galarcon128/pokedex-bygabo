@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+:root {
+  --pokedex-color: red;
+}
+
+.display-layout {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  height: 15px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 69%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.pokedex-container {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 70vw;
+  min-width: 600px;
+  aspect-ratio: 2;
+  display: flex;
+}
+
+.wallpaper{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./574726.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
