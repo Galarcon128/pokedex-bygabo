@@ -24,7 +24,7 @@ export default function NavBar({ desktop = false }) {
         </div>
         <div
           onClick={() => {
-            navigate("/favorites");
+            navigate("./favorites");
           }}
           className={`${Style.LYellow} ${Style.stateLed} ${
             pathname === "/favorites" ? Style.select : ""
@@ -34,7 +34,7 @@ export default function NavBar({ desktop = false }) {
         </div>
         <div
           onClick={() => {
-            navigate("/help");
+            navigate("./help");
           }}
           className={`${Style.LGreen} ${Style.stateLed} ${
             pathname === "/help" ? Style.select : ""
